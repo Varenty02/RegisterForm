@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-container {
+    background-color: aqua;
+    border: 1px solid red;
+    width: 700px;
+    margin: 60px auto;
+}
+.form-container  .label {
+    background-color: bisque;
+}
+.form-container  .label p{
+    color: red;
+}
+.form-container .form input{
+
+    margin: 0 0 11px;
+}
+.form-container  .form .input-text{
+    display: block;
+    width: 300px;
+}
+.form-container  .form .gender{
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+}
+.form-container input:focus{
+    outline: none;
+}
+.form-container button{
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 60px;
+    margin-left: 20px;
+}
